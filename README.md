@@ -1,17 +1,17 @@
 # BayesTraitsAssist
 
 IMPORTANT USAGE INFORMATION: (Setup instructions below)
--This program creates a trees file using saved labels and pulls values from columns
--It runs BayesTraits twice per comparison and uploads values to Google Sheets (Results sheet)
--Results sheet is cleared of all data if it already exists, save data by relocating it or renaming the Results sheet
--There are two modes: Run all possible comparisons, or Run specific column comparison. For running specific columns, specify the letter of the columns when prompted.
+- This program creates a trees file using saved labels and pulls values from columns
+- It runs BayesTraits twice per comparison and uploads values to Google Sheets (Results sheet)
+- Results sheet is cleared of all data if it already exists, save data by relocating it or renaming the Results sheet
+- There are two modes: Run all possible comparisons, or Run specific column comparison. For running specific columns, specify the letter of the columns when prompted.
 
 Requirements:
--All N/A data points must be replaced with question marks (?)
--The data must start on column E. Change line 300 in RunProgram.py if otherwise.
--There must not be gaps between columns.
--Sheet must be shared with Google Cloud email
--Sheet name must be entered correctly
+- All N/A data points must be replaced with question marks (?)
+- The data must start on column E. Change line 300 in RunProgram.py if otherwise.
+- There must not be gaps between columns.
+- Sheet must be shared with Google Cloud email
+- Sheet name must be entered correctly
 
 
 FIRST TIME SETUP:
