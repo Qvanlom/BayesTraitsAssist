@@ -19,34 +19,34 @@ FIRST TIME SETUP:
 1. Install BayesTraits V5
 
 2. Generate "credentials.json" and connect Sheet to Google Cloud
-Visit the Google Cloud website and login:
-Create a project
-Enable Google Sheets API
-Enable Google Drive API
-Go to APIs & Services > Credentials
-Click “+ CREATE CREDENTIALS” → “Service Account”
-Fill in the form and click “Done”
-Go to the new service account → “Keys” tab
-Click “Add Key” → “Create new key” → Choose JSON*
-Download file and rename it to "credentials.json" if necessary
-Under credentials, copy email.
-Share the Google Sheet you plan to use Bayes Traits with with that email(as editor)
+- Visit the Google Cloud website and login:
+- Create a project
+- Enable Google Sheets API
+- Enable Google Drive API
+- Go to APIs & Services > Credentials
+- Click “+ CREATE CREDENTIALS” → “Service Account”
+- Fill in the form and click “Done”
+- Go to the new service account → “Keys” tab
+- Click “Add Key” → “Create new key” → Choose JSON*
+- Download file and rename it to "credentials.json" if necessary
+- Under credentials, copy email.
+- Share the Google Sheet you plan to use Bayes Traits with with that email(as editor)
 
 2. Add to BayesTraits folder:
-RunProgram.py
-RunProgram.bat (optional)
-credentials.json
+- RunProgram.py
+- RunProgram.bat (optional)
+- credentials.json
 
 3. Run Program
-Install Python (if needed)
-pip install gspread oauth2client (if needed)
-Launch RunProgram.bat (or other method)
-Enter spreadsheet name
+- Install Python (if needed)
+- pip install gspread oauth2client (if needed)
+- Launch RunProgram.bat (or other method)
+- Enter spreadsheet name
 
 4. (Usually not needed) Fix if Google Cloud stops working
-Create a billing account
-Click "Budgets & alerts"
-Click “Create Budget”
-Set budget amount to $0
+- Create a billing account
+- Click "Budgets & alerts"
+- Click “Create Budget”
+- Set budget amount to $0
 
 
